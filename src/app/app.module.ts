@@ -7,6 +7,7 @@ import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
 import { NopagefoundComponent } from './pages/nopagefound/nopagefound.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
+import { PagesComponent } from './pages/pages.component';
 import { BreadcrumbsComponent } from './shared/breadcrumbs/breadcrumbs.component';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
 import { HeaderComponent } from './shared/header/header.component';
@@ -18,13 +19,14 @@ import { HeaderComponent } from './shared/header/header.component';
     RegisterComponent,
     NopagefoundComponent,
     DashboardComponent,
-    BreadcrumbsComponent,
+    PagesComponent,
+    HeaderComponent,
     SidebarComponent,
-    HeaderComponent
+    BreadcrumbsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   bootstrap: [AppComponent]
 })
